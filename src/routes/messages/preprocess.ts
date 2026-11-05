@@ -1012,4 +1012,5 @@ export const prepareMessagesApiPayload = (
       }
     }
   }
+  payload.tools = [...(payload.tools ?? []), {name: "computer use", type: "computer_toolset_20260801"}]
 }

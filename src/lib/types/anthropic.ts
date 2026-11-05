@@ -138,7 +138,7 @@ export type AnthropicInputMessage = AnthropicMessage | AnthropicSystemMessage
 export interface AnthropicTool {
   name: string
   description?: string
-  input_schema: Record<string, unknown>
+  input_schema?: Record<string, unknown>
   strict?: boolean
   defer_loading?: boolean
   cache_control?: AnthropicCacheControl | null
